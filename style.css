@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Creepster', cursive;
+}
+
+h1{
+    color:black;
+    text-transform: uppercase;
+}
+
+.grid{
+    height: 600px;
+    width: 400px;
+    background-color:black;
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    color: red;
+}
+
+.doodler{
+    height: 85px;
+    width: 60px;
+    background-color: orange;
+    position: absolute;
+}
+
+.platform{
+    height: 15px;
+    width: 85px;
+    background-color: yellowgreen;
+    position: absolute;
+}
